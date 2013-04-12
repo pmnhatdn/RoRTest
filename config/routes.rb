@@ -4,7 +4,7 @@ APP::Application.routes.draw do
   get "static_pages/account"
 
   get "static_pages/about"
-
+  root :to => 'static_pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
